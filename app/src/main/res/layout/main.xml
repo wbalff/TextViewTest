@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+               <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textSize="24sp"
+                    android:textColor="#0000ff"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+
+                    />
+                    -->
+                   <com.example.administrator.textviewtest.ZDYMarqueTextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/title"
+                       android:textSize="24sp"
+                       android:id="@+id/mView"
+                       android:singleLine="true"
+                       android:layout_marginTop="20dp"
+                       android:ellipsize="none"
+                       android:textColor="#ff0000"
+                       />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/content"
+                       android:layout_centerInParent="true"
+                       android:textSize="30sp"
+                       android:textColor="#0000ff"
+                       android:drawableBottom="@mipmap/ic_launcher"
+                       android:drawableLeft="@mipmap/ic_launcher"
+                       android:drawableRight="@mipmap/ic_launcher"
+                       android:drawableTop="@mipmap/ic_launcher"
+                       android:gravity="center"
+                       android:padding="20dp"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentBottom="true"
+                           android:layout_marginBottom="10dp"
+                           android:padding="5dp"
+                           android:layout_centerHorizontal="true"
+                           android:text="@string/linkInfo"
+                           android:background="#0000ff"
+                           android:textColor="#ffffff"
+                           android:textSize="18sp"
+                           android:autoLink="all"
+                           />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextViewTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">欢迎参加四川大学软件设计大赛我也非常想安静</string>
+    <string name="content">波</string>
+    <string name="linkInfo">如有疑问请联系我们\n联系电话：18200115968\nEmail：1012677575@qq.com\n
+    网址：http://www.baidu.com</string>
+</resources>
